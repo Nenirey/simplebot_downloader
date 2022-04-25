@@ -1,7 +1,7 @@
 "Downloader" SimpleBot Plugin
 =============================
 
-## adapted to deploy on heroku
+adapted to deploy on heroku
 
 .. image:: https://img.shields.io/pypi/v/simplebot_downloader.svg
    :target: https://pypi.org/project/simplebot_downloader
@@ -20,6 +20,8 @@
 
 .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
    :target: https://github.com/psf/black
+
+
 
 A `SimpleBot`_ plugin that allows to download files by email/DeltaChat.
 
@@ -45,9 +47,9 @@ By default there is a delay of 15 seconds between each sent chunk, to change it:
 
   simplebot -a bot@example.com db -s simplebot_downloader/delay 30
 
+.. image:: https://www.herokucdn.com/deploy/button.svg
+   :target: https://heroku.com/deploy?template=https://github.com/Nenirey/simplebot_downloader/tree/main
+
 
 .. _SimpleBot: https://github.com/simplebot-org/simplebot
 
-
-## Deploy Now:
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Nenirey/simplebot_downloader/tree/main)
