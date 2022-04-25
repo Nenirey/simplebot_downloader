@@ -1,0 +1,38 @@
+{
+  "name": "Simplebot Downloader",
+  "description": "Send me a link and send you the file downloaded file via Deltachat",
+  "keywords": [
+    "simplebot",
+    "deltachat",
+    "downloader",
+    "youtube"
+  ],
+  "success_url": "https://delta.chat",
+  "website": "https://github.com/Nenirey/simplebot_downloader",
+  "repository": "https://github.com/Nenirey/simplebot_downloader",
+  "env": {
+    "ADMIN": {
+      "description": "Your own email as bot administrator",
+      "value": ""
+    },    
+    "ADDR": {
+      "description": "The email bot with imap enabled",
+      "value": ""
+    },
+    "PASSWORD": {
+      "description": "The email bot password",
+      "value": ""
+    }
+  },
+  "addons": [
+  ],
+  "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "bot": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
