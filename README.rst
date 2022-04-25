@@ -48,7 +48,7 @@ By default there is a delay of 15 seconds between each sent chunk, to change it:
   simplebot -a bot@example.com db -s simplebot_downloader/delay 30
 
 .. image:: https://www.herokucdn.com/deploy/button.svg
-   :target: https://heroku.com/deploy?template=https://github.com/Nenirey/simplebot_downloader/tree/main
+   :target: https://heroku.com/deploy?template=https://github.com/Nenirey/simplebot_downloader/tree/master
 
 
 .. _SimpleBot: https://github.com/simplebot-org/simplebot
