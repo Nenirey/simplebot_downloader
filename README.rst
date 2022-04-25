@@ -48,6 +48,6 @@ By default there is a delay of 15 seconds between each sent chunk, to change it:
 
 .. _SimpleBot: https://github.com/simplebot-org/simplebot
 
+
 ## Deploy Now:
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Nenirey/simplebot_downloader/tree/main)
-
