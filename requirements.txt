@@ -1,3 +1,4 @@
+multivolumefile
 youtube-dl
 deltachat>=1.70.0
 git+https://github.com/Nenirey/simplebot@master#simplebot
